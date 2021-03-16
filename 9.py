@@ -1,0 +1,15 @@
+A=int(input("Quantos votos o candidato(a) A recebeu: "))
+B=int(input("Quantos votos o candidato(a) B recebeu: "))
+C=int(input("Quantos votos o candidato(a) C recebeu: "))
+Branco=int(input("Quantos votos brancos existem: "))
+Nulo=int(input("Quantos votos nulos existem: "))
+
+Total=int(A + B + C + Branco + Nulo)
+AV=int(A / Total *100)
+BV=int(B / Total * 100) 
+CV=int(C / Total * 100)
+BrV=int(Branco / Total * 100)
+NV=int(Nulo / Total * 100) 
+
+print("São" ,Total, "votos" " e são",AV, "% de votos são para o candidato A e ",BV, "% de votos para o canditado B e" ,CV,"% para o candidato C.")
+print("São",BrV, "% de votos brancos e",NV, "% de votos nulos")
