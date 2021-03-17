@@ -1,9 +1,9 @@
 print("A gasolina está R$ 4,30.")
 pgaso=float(4.30)
-litros=int(input("Quantor o senhor(a) que abastecer em reais: "))
-resultado= litros // pgaso
+litros=float(input("Quantor o senhor(a) que abastecer em reais: "))
+resultado=float(litros / pgaso)
 if resultado > 1:
-    print("Você abastecera" ,resultado, "litros." )
+    print("Você abastecera {:.2F}".format(resultado) , " litros." )
 else:
-    print("Você abastecera" ,resultado, "litro." )
+    print("Você abastecera {:.2F}".format(resultado) , " litros." )
 
