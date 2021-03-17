@@ -1,8 +1,8 @@
 print("entre com quatro numero inteiros")
-numero_1=int(input("Entre com o primeiro numero:"))
-numero_2=int(input("Entre com o segundo numero:"))
-numero_3=int(input("Entre com o terceiro numero:"))
-numero_4=int(input("Entre com o quarto numero:"))
+numero_1=int(input("Entre com o primeiro numero: "))
+numero_2=int(input("Entre com o segundo numero: "))
+numero_3=int(input("Entre com o terceiro numero: "))
+numero_4=int(input("Entre com o quarto numero: "))
 
 mult = numero_1 * numero_3
 

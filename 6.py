@@ -1,6 +1,6 @@
 #informar achar o volume  de uma lata de oleo usando formula 3.14*(R*R)*h
 
-Raio=int(input("Insira o valor de raio:"))
+Raio=float(input("Insira o valor de raio:"))
 h=int(input("Insira o valor da altura:"))
 pi=int(3.14)
 Rbig = Raio * Raio

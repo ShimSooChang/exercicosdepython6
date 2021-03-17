@@ -12,4 +12,4 @@ BrV=int(Branco / Total * 100)
 NV=int(Nulo / Total * 100) 
 
 print("São" ,Total, "votos" " e são",AV, "% de votos são para o candidato A e ",BV, "% de votos para o canditado B e" ,CV,"% para o candidato C.")
-print("São",BrV, "% de votos brancos e",NV, "% de votos nulos")
+print("\nSão",BrV, "% de votos brancos e",NV, "% de votos nulos")

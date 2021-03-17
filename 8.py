@@ -1,5 +1,5 @@
-salario=int(input("Qual é o seu salario mensal em reais: "))
-despesas=int(input("De quanto são suas despesas mensais em reais: "))
+salario=float(input("Qual é o seu salario mensal em reais: "))
+despesas=float(input("De quanto são suas despesas mensais em reais: "))
 meta=int(input("Qual é sua meta de dinheiro em reais: "))
 D = salario - despesas
 umAno=int(D * 12)
